@@ -63,5 +63,5 @@ class FocusScene(Scene):
         )
 
         # Wait before finishing the scene
-        self.wait(0.25)
+        self.play(FadeOut(text))
 
